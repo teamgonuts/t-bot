@@ -14,6 +14,7 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+gem 'twitter'
 gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'omniauth'
