@@ -11,6 +11,7 @@ class CreateTwitterUsers < ActiveRecord::Migration
       t.integer :followers
       t.integer :following
       t.integer :tweets
+      t.decimal :twitter_users, :following_followers_ratio, null:false, default: 0.0
       t.timestamps null: false
     end
   end

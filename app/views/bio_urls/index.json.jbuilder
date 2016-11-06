@@ -1,0 +1,1 @@
+json.array! @bio_urls, partial: 'bio_urls/bio_url', as: :bio_url

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :bio_urls
   resources :hashtags
   resources :tweets
   resources :twitter_users

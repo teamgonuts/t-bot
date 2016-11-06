@@ -1,0 +1,1 @@
+json.partial! "bio_urls/bio_url", bio_url: @bio_url
